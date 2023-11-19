@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hotel Reservation</title>
@@ -51,6 +50,9 @@
             padding: 1em;
             text-align: center;
         }
+        h1 {
+            text-align: center;
+        }
 
         main {
             padding: 2em;
@@ -84,10 +86,25 @@
         image {
             align-items: center;
         }
+        img {
+            width: 100%;
+            height: auto;
+            max-width: 500px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            align-items: center;
+        }
+        figure {
+            align-items: center;
+            align-self: center;
+        }
+        .class {
+            align-self: center;
+        }
 
     </style>
-</head>
-<body>
+
+<head>
 
     <header>
         <h1>Vive una experiencia innolvidable</h1>
@@ -101,6 +118,7 @@
         </nav>
     </header>
 
+</head>
 <body>
     <h1>Reservación de Hotel</h1>
     <form action="process_reservation.php" method="post">
@@ -132,6 +150,10 @@
         <button type="submit">Agregar Reservación</button>
     </form>
 </body>
+<figure>
+    <img src="https://ecuadors.live/wp-content/uploads/2022/12/Turismo-en-el-canton-Bolivar-Carchi-Ecuador.png" alt="CarchiTurismo" class="centered-image"alt="Paris" class="center">
+</figure>  
+
 <footer>
     <p>&copy; 2023 Gobierno Provincial del Carchi. All rights reserved.</p>
 </footer>
