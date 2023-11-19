@@ -15,7 +15,7 @@
 
         header {
             background-color: rgb(201, 122, 31);
-            color: rgb(34, 26, 26)f0f;
+            color: #fff; 
             padding: 1em;
             text-align: center;
         }
@@ -26,10 +26,11 @@
 
         footer {
             background-color: rgb(201, 122, 31);
-            color: rgb(34, 26, 26)f0f;
+            color: #fff; 
             padding: 1em;
             text-align: center;
         }
+
         nav {
             display: flex;
             justify-content: space-around;
@@ -49,15 +50,18 @@
         nav a:hover {
             background-color: #ddd;
         }
+
         image {
             align-items: center;
         }
+
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
             overflow: hidden;
         }
+
         form {
             max-width: 400px;
             margin: 0 auto;
@@ -90,7 +94,10 @@
         img {
             width: 30%;
             height: auto;
+            display: block;
+            margin: 20px auto; 
         }
+
         table {
             width: 100%;
             border-collapse: collapse;
@@ -115,21 +122,17 @@
             line-height: 1.6;
         }
 
-        td:nth-child(2) {
-            border-left: 1px solid #ddd;
-            padding-left: 15px;
-        }
-
+        td:nth-child(2),
         td:nth-child(3) {
             border-left: 1px solid #ddd;
             padding-left: 15px;
         }
-
     </style>
 </head>
 
+<body>
     <header>
-        <h1>Servicios </h1>
+        <h1>Servicios</h1>
         <nav>
             <a href="index.html">Inicio</a>
             <a href="page1.html">Nuestros atractivos</a>
@@ -137,11 +140,10 @@
             <a href="page3.html">Reserva tu viaje</a>
             <a href="page4.html">Servicios</a>
             <a href="page5.html">Noticias</a>
-
         </nav>
     </header>
-    <body>
-    
+
+    <main>
         <h1>Servicios en la Provincia</h1>
 
         <h2>Servicios de Transporte</h2>
@@ -162,7 +164,7 @@
                 <td>Puedes reservar un taxi llamando al <strong>555-5678</strong>.</td>
             </tr>
         </table>
-    
+
         <h2>Servicios de Alimentación</h2>
         <table>
             <tr>
@@ -181,7 +183,7 @@
                 <td>Comunícate con el servicio de entrega al <strong>555-4321</strong>.</td>
             </tr>
         </table>
-    
+
         <h2>Servicios de Salud</h2>
         <table>
             <tr>
@@ -200,12 +202,15 @@
                 <td>Si necesitas información sobre medicamentos o farmacias de guardia, puedes contactar con nuestro servicio farmacéutico al <strong>555-9999</strong>.</td>
             </tr>
         </table>
-    
+
         <div class="contact-info">
             <p>Si tienes alguna pregunta adicional o necesitas información específica, no dudes en comunicarte con nuestra oficina de información general al <strong>555-0000</strong>.</p>
         </div>
-        </body>
-        <footer>
-            <p>&copy; 2023 Gobierno Provincial del Carchi. All rights reserved.</p>
-        </footer>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Gobierno Provincial del Carchi. All rights reserved.</p>
+    </footer>
+</body>
+
 </html>

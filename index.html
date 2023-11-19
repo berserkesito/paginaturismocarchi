@@ -15,7 +15,7 @@
 
         header {
             background-color: rgb(201, 122, 31);
-            color: rgb(34, 26, 26)f0f;
+            color: rgb(34, 26, 26);
             padding: 1em;
             text-align: center;
         }
@@ -26,10 +26,11 @@
 
         footer {
             background-color: rgb(201, 122, 31);
-            color: rgb(34, 26, 26)f0f;
+            color: rgb(34, 26, 26);
             padding: 1em;
             text-align: center;
         }
+
         nav {
             display: flex;
             justify-content: space-around;
@@ -49,21 +50,22 @@
         nav a:hover {
             background-color: #ddd;
         }
-        image {
-            align-items: center;
-        }
-        img {
-            width: 100%;
+
+        .centered-image {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 100%;
             height: auto;
-            max-width: 500px;
             margin-top: 20px;
             margin-bottom: 20px;
         }
-        aside {
-            align-items: center;
-            align-self: center;
-        }
 
+        aside {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
 
     </style>
 </head>
@@ -86,27 +88,26 @@
     </header>
 
     <main>
-    <section>
-        <aside>
-            <img src="https://gobernacioncarchi.gob.ec/wp-content/uploads/2020/11/Logo-Gobernacion-del-Carchi-01.png" alt="Gobernacion del Carchi Logo" class="centered-image"alt="Paris" class="center">
-        </aside>  
+        <section>
+            <aside>
+                <img src="https://gobernacioncarchi.gob.ec/wp-content/uploads/2020/11/Logo-Gobernacion-del-Carchi-01.png" alt="Gobernacion del Carchi Logo" class="centered-image">
+            </aside>
+        </section>
 
-    </section>
-          
         <article>
             <h3> Reseña Histórica </h3>
-        <p> El 19 de noviembre de 1880 el General Ignacio de Veintemilla decretó la provincialización de Carchi con el nombre de provincia de Veintemilla. En 1884, la Ley de División Territorial del 23 de abril de 1884, expedida durante el gobierno del Dr. José María Plácido Caamaño, le dio el nombre de Carchi. En los primeros años de la República, estos territorios pertenecieron al cantón Tulcán que formó parte de la provincia de Imbabura.
+            <p> El 19 de noviembre de 1880 el General Ignacio de Veintemilla decretó la provincialización de Carchi con el nombre de provincia de Veintemilla. En 1884, la Ley de División Territorial del 23 de abril de 1884, expedida durante el gobierno del Dr. José María Plácido Caamaño, le dio el nombre de Carchi. En los primeros años de la República, estos territorios pertenecieron al cantón Tulcán que formó parte de la provincia de Imbabura.
 
-            Los territorios de esta provincia estuvieron poblados en época prehispánica por comunidades indígenas a las que los incas llamaron con el nombre de Quillasingas -palabra de origen quichua que quiere decir “Nariz de luna”- con la que se designa a quienes -a modo de adorno- llevan colgado de la nariz un pendiente en forma de media luna. Por otro lado, se afirma que el pueblo carchense proviene de cuatro culturas: Cayapas, de la región de Esmeraldas; Pastos y Quillasingas, del sur de Colombia, y caribes provenientes de la Amazonía.
-            
-            El 14 de abril de 1814, en las inmediaciones de la población de Puntal (hoy Bolívar) el capitán español Pedro Galup ordenó el fusilamiento de los patriotas Esteban y Antonio Baca, Alejandro Ruano, Cecilio Arciniegas, Leandro Campiño, José María Pava y otros más, por haber sido descubiertos en actividades independentistas.
-            
-            En el territorio carchense habitan 186.869 habitantes, según la proyección demográfica del INEC para 2020, siendo la décimo octava más poblada del país y la menos poblada de la región interandina. La Provincia de Carchi está constituida por 6 cantones: Bolívar, Espejo, Mira, Montufar, San Pedro de Huaca y Tulcán.  Sus límites: Al norte, los ríos Carchi y San Juan le sirven de frontera con Colombia, al sur limita con la provincia de Imbabura, al este con la provincia de Sucumbíos, y a occidente con la de Esmeraldas.
-            
-            Según el último ordenamiento territorial, la provincia de Carchi pertenecerá a una región comprendida también por las provincias de Imbabura, Esmeraldas y Sucumbíos, denominada Zona Norte 1</p>
-   
+                Los territorios de esta provincia estuvieron poblados en época prehispánica por comunidades indígenas a las que los incas llamaron con el nombre de Quillasingas -palabra de origen quichua que quiere decir “Nariz de luna”- con la que se designa a quienes -a modo de adorno- llevan colgado de la nariz un pendiente en forma de media luna. Por otro lado, se afirma que el pueblo carchense proviene de cuatro culturas: Cayapas, de la región de Esmeraldas; Pastos y Quillasingas, del sur de Colombia, y caribes provenientes de la Amazonía.
+
+                El 14 de abril de 1814, en las inmediaciones de la población de Puntal (hoy Bolívar) el capitán español Pedro Galup ordenó el fusilamiento de los patriotas Esteban y Antonio Baca, Alejandro Ruano, Cecilio Arciniegas, Leandro Campiño, José María Pava y otros más, por haber sido descubiertos en actividades independentistas.
+
+                En el territorio carchense habitan 186.869 habitantes, según la proyección demográfica del INEC para 2020, siendo la décimo octava más poblada del país y la menos poblada de la región interandina. La Provincia de Carchi está constituida por 6 cantones: Bolívar, Espejo, Mira, Montufar, San Pedro de Huaca y Tulcán. Sus límites: Al norte, los ríos Carchi y San Juan le sirven de frontera con Colombia, al sur limita con la provincia de Imbabura, al este con la provincia de Sucumbíos, y a occidente con la de Esmeraldas.
+
+                Según el último ordenamiento territorial, la provincia de Carchi pertenecerá a una región comprendida también por las provincias de Imbabura, Esmeraldas y Sucumbíos, denominada Zona Norte 1</p>
+
         </article>
-        </main>
+    </main>
 
     <footer>
         <p>&copy; 2023 Gobierno Provincial del Carchi. All rights reserved.</p>
